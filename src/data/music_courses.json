@@ -1,0 +1,64 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Guitar Fundamentals",
+      "slug": "guitar-fundamentals",
+      "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+      "price": 99.99,
+      "instructor": "John Doe",
+      "isFeatured": true,
+      "image": "/courses/guitar.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Piano for Beginners",
+      "slug": "piano-for-beginners",
+      "description": "Start your musical journey with this easy-to-follow piano course for beginners.",
+      "price": 89.99,
+      "instructor": "Jane Smith",
+      "isFeatured": false,
+      "image": "/courses/piano.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Mastering Drums",
+      "slug": "mastering-drums",
+      "description": "Unlock the secrets of drumming with step-by-step lessons and practice routines.",
+      "price": 109.99,
+      "instructor": "Mike Johnson",
+      "isFeatured": true,
+      "image": "/courses/drums.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Violin Essentials",
+      "slug": "violin-essentials",
+      "description": "Build a solid foundation in violin playing with this essential course.",
+      "price": 94.99,
+      "instructor": "Emily Clark",
+      "isFeatured": false,
+      "image": "/courses/violin.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Singing Techniques",
+      "slug": "singing-techniques",
+      "description": "Improve your vocal skills and learn professional singing techniques.",
+      "price": 79.99,
+      "instructor": "Sarah Lee",
+      "isFeatured": true,
+      "image": "/courses/singing.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Electronic Music Production",
+      "slug": "electronic-music-production",
+      "description": "Create your own electronic music tracks using modern production tools.",
+      "price": 129.99,
+      "instructor": "Alex Turner",
+      "isFeatured": false,
+      "image": "/courses/electronic.jpg"
+    }
+  ]
+}
