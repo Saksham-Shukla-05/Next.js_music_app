@@ -3,6 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { useMotionValueEvent, useScroll } from "motion/react";
 import { motion } from "motion/react";
 import { cn } from "../../utils/cn";
+import "../../app/globals.css";
 
 export const StickyScroll = ({
   content,
@@ -41,7 +42,6 @@ export const StickyScroll = ({
   });
 
   const backgroundColors = [
-    "#0f172a", // slate-900
     "#000000", // black
     "#171717", // neutral-900
   ];
@@ -64,10 +64,10 @@ export const StickyScroll = ({
       animate={{
         backgroundColor: backgroundColors[activeCard % backgroundColors.length],
       }}
-      className="relative flex h-[30rem] justify-center space-x-10 overflow-y-auto rounded-md p-10"
+      className="relative flex h-[30rem] justify-center no-scrollbar  space-x-10 overflow-y-auto rounded-md p-10"
       ref={ref}
     >
-      <div className="div relative flex items-start px-4">
+      <div className="relative flex items-start px-4">
         <div className="max-w-2xl">
           {content.map((item, index) => (
             <div key={item.title + index} className="my-20">
