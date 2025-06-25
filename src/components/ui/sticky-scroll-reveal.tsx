@@ -63,44 +63,42 @@ export const StickyScroll = ({
       animate={{
         backgroundColor: backgroundColors[activeCard % backgroundColors.length],
       }}
-      className="relative flex h-[30rem] justify-center no-scrollbar  space-x-30 overflow-y-auto rounded-md p-10"
+      className="relative w-full flex justify-center gap-24 h-[30rem]  overflow-y-auto no-scrollbar  rounded-md p-10"
       ref={ref}
     >
-      <div className="relative flex items-start px-4">
-        <div className="max-w-2xl">
+      {/* LEFT SIDE */}
+      <div className=" h-fit relative flex  items-start px-4">
+        <div>
           {content.map((item, index) => (
-            <div key={item.title + index} className="mt-5 my-22">
+            <div
+              key={item.title + index}
+              className="flex justify-start items-center lg:justify-center lg:items-start flex-col mt-23 my-22"
+            >
               <motion.h2
-                initial={{
-                  opacity: 0,
-                }}
-                animate={{
-                  opacity: activeCard === index ? 1 : 0.3,
-                }}
-                className="text-2xl font-bold text-slate-100"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: activeCard === index ? 1 : 0.3 }}
+                className="text-2xl text-center font-bold text-slate-100"
               >
                 {item.title}
               </motion.h2>
               <motion.p
-                initial={{
-                  opacity: 0,
-                }}
-                animate={{
-                  opacity: activeCard === index ? 1 : 0.3,
-                }}
-                className="text-kg mt-10 max-w-sm text-slate-300"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: activeCard === index ? 1 : 0.3 }}
+                className="text-[15px] md:text-kg mt-10 text-center lg:text-left max-w-sm text-slate-300"
               >
                 {item.description}
               </motion.p>
             </div>
           ))}
-          <div className="h-40" />
+          <div className="h-30" />
         </div>
       </div>
+
+      {/* RIGHT SIDE */}
       <div
         style={{ background: backgroundGradient }}
         className={cn(
-          "sticky top-1 hidden h-60 w-80 overflow-hidden rounded-md bg-white lg:block",
+          "sticky top-2  hidden h-60 w-96 overflow-hidden rounded-md border-2 border-blue-400 bg-white lg:block",
           contentClassName
         )}
       >

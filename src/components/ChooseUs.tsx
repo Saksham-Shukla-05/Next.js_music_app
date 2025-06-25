@@ -86,7 +86,7 @@ const musicSchoolContent = [
 ];
 export default function ChooseUs() {
   return (
-    <div>
+    <div className="">
       <StickyScroll content={musicSchoolContent} />
     </div>
   );
