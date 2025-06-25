@@ -8,8 +8,9 @@
       "price": 99.99,
       "instructor": "John Doe",
       "isFeatured": true,
-      "image": "/courses/guitar.jpg"
+      "image": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=800&q=80"
     },
+
     {
       "id": 2,
       "title": "Piano for Beginners",
@@ -18,8 +19,9 @@
       "price": 89.99,
       "instructor": "Jane Smith",
       "isFeatured": false,
-      "image": "/courses/piano.jpg"
+      "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=800&q=80"
     },
+
     {
       "id": 3,
       "title": "Mastering Drums",
@@ -28,8 +30,9 @@
       "price": 109.99,
       "instructor": "Mike Johnson",
       "isFeatured": true,
-      "image": "/courses/drums.jpg"
+      "image": "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=800&q=80"
     },
+
     {
       "id": 4,
       "title": "Violin Essentials",
@@ -38,7 +41,7 @@
       "price": 94.99,
       "instructor": "Emily Clark",
       "isFeatured": false,
-      "image": "/courses/violin.jpg"
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
     },
     {
       "id": 5,
@@ -48,7 +51,7 @@
       "price": 79.99,
       "instructor": "Sarah Lee",
       "isFeatured": true,
-      "image": "/courses/singing.jpg"
+      "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80"
     },
     {
       "id": 6,
@@ -58,7 +61,7 @@
       "price": 129.99,
       "instructor": "Alex Turner",
       "isFeatured": false,
-      "image": "/courses/electronic.jpg"
+      "image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=800&q=80"
     }
   ]
 }
